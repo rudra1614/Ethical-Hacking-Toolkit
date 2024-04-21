@@ -53,7 +53,7 @@ all_tools = [
     ExploitFrameworkTools(),
    
     DDOSTools(),
-    RemoteAdministrationTools(),
+    
     XSSAttackTools(),
    
     OtherTools(),
