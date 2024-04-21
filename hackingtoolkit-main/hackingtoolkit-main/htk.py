@@ -16,7 +16,7 @@ from tools.other_tools import OtherTools
 from tools.payload_creator import PayloadCreatorTools
 from tools.phising_attack import PhishingAttackTools
 from tools.post_exploitation import PostExploitationTools
-from tools.remote_administration import RemoteAdministrationTools
+
 
 from tools.sql_tools import SqlInjectionTools
 
