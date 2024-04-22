@@ -1,10 +1,9 @@
 # All in One Hacking toolKit For Hackers, Penetration Tester and CyberSecurity 🥇
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/main.jpg" alt="hackingtoolkit"/>
 
-#### Install Kali Linux in WIndows10 Without VirtualBox [YOUTUBE](https://www.youtube.com/@AutoGPT_Live) 
 
-## Update Available 3.0  
+
+
 
 - [✔] Installation Bug Fixed
 - [x] Added New Tools 
@@ -49,7 +48,7 @@
 
 ### Anonymously Hiding Tools 
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h0.jpg" alt="Anonymously Hiding Tools"/>
+
 
 - [Anonmously Surf](https://github.com/Und3rf10w/kali-anonsurf)
 - [Multitor](https://github.com/trimstray/multitor)
@@ -60,7 +59,6 @@
 
 ### Information Gathering Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h1.jpg" alt="Information gathering tools"/>
 
 - [Network Map (nmap)](https://github.com/nmap/nmap)
 - [Dracnmap](https://github.com/Screetsec/Dracnmap)
@@ -85,7 +83,7 @@
 
 ### Wordlist Generator
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h2.jpg" alt="Wordlist Generator"/>
+
 
 - [Cupp](https://github.com/Mebus/cupp.git)
 - [WordlistCreator](https://github.com/Z4nzu/wlcreator)
@@ -95,7 +93,7 @@
 
 ### Wireless Attack Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h3.jpg" alt="Wireless Attack Tools"/>
+
 
 - [WiFi-Pumpkin](https://github.com/P0cL4bs/wifipumpkin3)
 - [pixiewps](https://github.com/wiire/pixiewps)
@@ -110,8 +108,6 @@
 
 ### SQL Injection Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h4.jpg" alt="SQL Injection Tools"/>
-
 - [Sqlmap tool](https://github.com/sqlmapproject/sqlmap)
 - [NoSqlMap](https://github.com/codingo/NoSQLMap)
 - [Damn Small SQLi Scanner](https://github.com/stamparm/DSSS)
@@ -123,7 +119,7 @@
 
 ### Phishing Attack Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h5.jpg" alt="Phishing Attack Tools"/>
+
 
 - [Setoolkit](https://github.com/trustedsec/social-engineer-toolkit)
 - [SocialFish](https://github.com/UndeadSec/SocialFish)
@@ -138,7 +134,7 @@
 
 ### Web Attack Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h6.jpg" alt="Web Attack Tools"/>
+
 
 - [Web2Attack](https://github.com/santatic/web2attack)
 - Skipfish
@@ -151,7 +147,7 @@
 
 ### Post Exploitation Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h7.jpg" alt="Post Exploitation Tools"/>
+
 
 - [Vegile - Ghost In The Shell](https://github.com/Screetsec/Vegile)
 - [Chrome Keylogger](https://github.com/UndeadSec/HeraKeylogger)
@@ -159,7 +155,6 @@
 
 ### Forensic Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h8.jpg" alt="Forensic Tools"/>
 
 - Autopsy
 - Wireshark
@@ -170,7 +165,6 @@
 
 ### Payload Creation Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h9.jpg" alt="Payload Creation Tools"/>
 
 - [The FatRat](https://github.com/Screetsec/TheFatRat)
 - [Brutal](https://github.com/Screetsec/Brutal)
@@ -184,7 +178,7 @@
 
 ### Exploit Framework
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h10.jpg" alt="Exploit Framework"/>
+
 
 - [RouterSploit](https://github.com/threat9/routersploit)
 - [WebSploit](https://github.com/The404Hacking/websploit )
@@ -194,7 +188,7 @@
 
 ### Reverse Engineering Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h11.jpg" alt="Reverse Engineering Tools"/>
+
 
 - [Androguard](https://github.com/androguard/androguard )
 - [Apk2Gold](https://github.com/lxdvs/apk2gold )
@@ -203,7 +197,7 @@
 
 ### DDOS Attack Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h12.jpg" alt="DDOS Attack Tools"/>
+
 
 - SlowLoris
 - [Asyncrone | Multifunction SYN Flood DDoS Weapon](https://github.com/fatihsnsy/aSYNcrone)
@@ -213,7 +207,7 @@
 
 ### Remote Administrator Tools (RAT)
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h.13jpg" alt="Remote Administrator Tools"/>
+
 
 - [Stitch](https://github.com/nathanlopez/Stitch)
 - [Pyshell](https://github.com/knassar702/pyshell)
@@ -221,7 +215,7 @@
 
 ### XSS Attack Tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h14.jpg" alt="XSS Attack Tools"/>
+
 
 - [DalFox(Finder of XSS)](https://github.com/hahwul/dalfox)
 - [XSS Payload Generator](https://github.com/capture0x/XSS-LOADER.git)
@@ -237,7 +231,6 @@
 
 ### Steganograhy tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h15.jpg" alt="Steganograhy tools"/>
 
 - SteganoHide
 - StegnoCracker
@@ -247,7 +240,6 @@
 
 ### Other tools
 
-<img src="https://github.com/CodingRanjith/hackingtoolkit/blob/main/images/h16.jpg" alt="Other tools"/>
 
 #### SocialMedia Bruteforce
 - [Instagram Attack](https://github.com/chinoogawa/instaBrute)
@@ -296,23 +288,5 @@
     
     sudo python3 htk.py
 
-## Licence
 
-GNU General Public License v3.0
 
-## Legal Notice
-
-* This software is provided for educational use only! The author will not be held responsible for any illegal activity by you. By using this software, you agree to these terms.
-
-## Donate!
-
-### PayPal: https://bit.ly/3QKknix
-
-#### Thanks to Original Author of the Tools used in hackingtoolkit
-
-<img src ="https://img.shields.io/badge/Important-notice-red" />
-<h4>Please Don't Use for illegal Activity</h4>
-
-#### Don't Forgot to share with Your Friends 
-### The new Update get will soon stay updated
-#### Thank you..!!
