@@ -6,16 +6,7 @@ from core import HackingTool
 from core import HackingToolsCollection
 
 
-class DDoSRipper(HackingTool):
-    TITLE = "DDoS-Ripper"
-    DESCRIPTION = "DDos Ripper a Distributable Denied-of-Service (DDOS) attack server that cuts off targets or surrounding infrastructure in a flood of Internet traffic" \
-    INSTALL_COMMANDS = ["git clone https://github.com/palahsu/DDoS-Ripper",
-                       "cd DDoS-Ripper"]
-    RUN_COMMANDS=["python3 DRipper.py"]
 
-    def run(self):
-        target_site = input("Enter Target IP:- ")
-        subprocess.run(["DDoSRipper", target_ip])
 
 
 class Asyncrone(HackingTool):
@@ -46,7 +37,7 @@ class Asyncrone(HackingTool):
 class DDOSTools(HackingToolsCollection):
     TITLE = "DDOS Attack Tools"
     TOOLS = [
-        SlowLoris(),
+       
         Asyncrone(),
-        DDoSRipper(),
+       
     ]
