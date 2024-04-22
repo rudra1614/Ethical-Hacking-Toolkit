@@ -5,14 +5,14 @@ from core import HackingTool
 from core import HackingToolsCollection
 
 class autophisher(HackingTool):
-    TITLE = "Autophisher RK - Automated Phishing Toolkit"
+    TITLE = "Zphisher"
     DESCRIPTION = "Automated Phishing Toolkit"
     INSTALL_COMMANDS = [
-        "sudo git clone https://github.com/CodingRanjith/autophisher.git",
-        "cd autophisher"
+        "sudo git clone --depth=1 https://github.com/htr-tech/zphisher.git",
+        "cd zphisher"
     ]
-    RUN_COMMANDS = ["cd autophisher;sudo bash autophisher.sh"]
-    PROJECT_URL = "https://github.com/CodingRanjith/autophisher"
+    RUN_COMMANDS = ["cd zphisher;sudo bash zphisher.sh"]
+    PROJECT_URL = "https://github.com/htr-tech/zphisher"
     
 class AdvPhishing(HackingTool):
     TITLE = "AdvPhishing - This is Advance Phishing Tool ! OTP PHISHING"
@@ -143,21 +143,7 @@ class Thanos(HackingTool):
     RUN_COMMANDS = ["cd Thanos;sudo bash Thanos.sh"]
     PROJECT_URL = "https://github.com/TridevReddy/Thanos"    
     
-class QRLJacking(HackingTool):
-    TITLE = "QRLJacking - QRLJacking For Whatsapp "
-    DESCRIPTION = "QRLJacking"
-    INSTALL_COMMANDS = [
-        "git clone https://github.com/OWASP/QRLJacking.git",
-        "cd QRLJacking",
-        "git clone https://github.com/mozilla/geckodriver.git",
-        "chmod +x geckodriver",
-        "sudo mv -f geckodriver /usr/local/share/geckodriver",
-        "sudo ln -s /usr/local/share/geckodriver /usr/local/bin/geckodriver",
-        "sudo ln -s /usr/local/share/geckodriver /usr/bin/geckodriver",
-        "cd QRLJacker;pip3 install -r requirements.txt"
-    ]
-    RUN_COMMANDS = ["cd QRLJacking/QRLJacker;python3 QrlJacker.py"]
-    PROJECT_URL = "https://github.com/OWASP/QRLJacking"
+
     
 class Maskphish(HackingTool):
     TITLE = "Miskphish - Hide phishing URL under a normal looking URL (google.com or facebook.com)"
@@ -168,15 +154,6 @@ class Maskphish(HackingTool):
     RUN_COMMANDS = ["cd maskphish;sudo bash maskphish.sh"]
     PROJECT_URL = "https://github.com/jaykali/maskphish"            
 
-
-class BlackPhish(HackingTool):
-    TITLE = "BlackPhish - Phishing Tool Pro"
-    INSTALL_COMMANDS = [
-        "sudo git clone https://github.com/iinc0gnit0/BlackPhish.git",
-        "cd BlackPhish;sudo bash install.sh"
-    ]
-    RUN_COMMANDS = ["cd BlackPhish;sudo python3 blackphish.py"]
-    PROJECT_URL = "https://github.com/iinc0gnit0/BlackPhish"
 
     def __init__(self):
         super(BlackPhish, self).__init__([('Update', self.update)])
@@ -201,7 +178,5 @@ class PhishingAttackTools(HackingToolsCollection):
         BlackEye(),
         ShellPhish(),
         Thanos(),
-        QRLJacking(),
-        BlackPhish(),
         Maskphish()
     ]
