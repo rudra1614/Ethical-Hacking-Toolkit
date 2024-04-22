@@ -155,13 +155,6 @@ class Maskphish(HackingTool):
     PROJECT_URL = "https://github.com/jaykali/maskphish"            
 
 
-    def __init__(self):
-        super(BlackPhish, self).__init__([('Update', self.update)])
-
-    def update(self):
-        os.system("cd BlackPhish;sudo bash update.sh")
-
-
 class PhishingAttackTools(HackingToolsCollection):
     TITLE = "Phishing attack tools"
     TOOLS = [
