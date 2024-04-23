@@ -25,21 +25,14 @@
 - [Phishing Attack Tools (16)](#phishing-attack-tools)
 - [Web Attack Tools (7)](#web-attack-tools)
 - [Post Exploitation Tools (2)](#post-exploitation-tools)
-- [Forensic Tools (5)](#forensic-tools)
 - [Payload Creation Tools (8)](#payload-creation-tools)
 - [Exploit Framework (4)](#exploit-framework)
-- [Reverse Engineering Tools (3)](#reverse-engineering-tools)
 - [DDOS Attack Tools (4)](#ddos-attack-tools)
-- [Remote Administrator Tools (RAT) (2)](#remote-administrator-tools--rat-)
 - [XSS Attack Tools (9)](#xss-attack-tools)
-- [Steganograhy Tools (4)](#steganograhy-tools)
 - [Other Tools (120)](#other-tools)
     - [SocialMedia Bruteforce](#socialmedia-bruteforce)
-    - [Android Hacking tools](#android-hacking-tools)
-    - [IDN Homograph Attack](#idn-homograph-attack)
     - [Email Verify tools](#email-verify-tools)
     - [Hash cracking tools](#hash-cracking-tools)
-    - [Wifi Deauthenticate](#wifi-deauthenticate)
     - [SocialMedia Finder](#socialmedia-finder)
     - [Payload Injector](#payload-injector)
     - [Web crawling](#web-crawling)
@@ -91,19 +84,6 @@
 - [Password list (1.4 Billion Clear Text Password)](https://github.com/Viralmaniar/SMWYG-Show-Me-What-You-Got)
 
 
-### Wireless Attack Tools
-
-
-
-- [WiFi-Pumpkin](https://github.com/P0cL4bs/wifipumpkin3)
-- [pixiewps](https://github.com/wiire/pixiewps)
-- [Bluetooth Honeypot GUI Framework](https://github.com/andrewmichaelsmith/bluepot)
-- [Fluxion](https://github.com/thehackingsage/Fluxion)
-- [Wifiphisher](https://github.com/wifiphisher/wifiphisher)
-- [Wifite](https://github.com/derv82/wifite2)
-- [EvilTwin](https://github.com/Z4nzu/fakeap)
-- [Fastssh](https://github.com/Z4nzu/fastssh)
-- Howmanypeople
 
 
 ### SQL Injection Tools
@@ -152,30 +132,6 @@
 - [Vegile - Ghost In The Shell](https://github.com/Screetsec/Vegile)
 - [Chrome Keylogger](https://github.com/UndeadSec/HeraKeylogger)
 
-
-### Forensic Tools
-
-
-- Autopsy
-- Wireshark
-- [Bulk extractor](https://github.com/simsong/bulk_extractor)
-- [Disk Clone and ISO Image Acquire](https://guymager.sourceforge.io/)
-- [Toolsley](https://www.toolsley.com/)
-
-
-### Payload Creation Tools
-
-
-- [The FatRat](https://github.com/Screetsec/TheFatRat)
-- [Brutal](https://github.com/Screetsec/Brutal)
-- [Stitch](https://nathanlopez.github.io/Stitch)
-- [MSFvenom Payload Creator](https://github.com/g0tmi1k/msfpc)
-- [Venom Shellcode Generator](https://github.com/r00t-3xp10it/venom)
-- [Spycam](https://github.com/indexnotfound404/spycam)
-- [Mob-Droid](https://github.com/kinghacker0/Mob-Droid)
-- [Enigma](https://github.com/UndeadSec/Enigma)
-
-
 ### Exploit Framework
 
 
@@ -186,31 +142,12 @@
 - [Web2Attack](https://github.com/santatic/web2attack)
 
 
-### Reverse Engineering Tools
-
-
-
-- [Androguard](https://github.com/androguard/androguard )
-- [Apk2Gold](https://github.com/lxdvs/apk2gold )
-- [JadX](https://github.com/skylot/jadx)
-
-
 ### DDOS Attack Tools
 
 
 
 - SlowLoris
 - [Asyncrone | Multifunction SYN Flood DDoS Weapon](https://github.com/fatihsnsy/aSYNcrone)
-- [UFOnet](https://github.com/epsylon/ufonet)
-- [GoldenEye](https://github.com/jseidl/GoldenEye)
-
-
-### Remote Administrator Tools (RAT)
-
-
-
-- [Stitch](https://github.com/nathanlopez/Stitch)
-- [Pyshell](https://github.com/knassar702/pyshell)
 
 
 ### XSS Attack Tools
@@ -228,40 +165,7 @@
 - [RVuln](https://github.com/iinc0gnit0/RVuln)
 - [Cyclops](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) 
 
-
-### Steganograhy tools
-
-
-- SteganoHide
-- StegnoCracker
-- [StegoCracker](https://github.com/W1LDN16H7/StegoCracker)
-- [Whitespace](https://github.com/beardog108/snow10)
-
-
 ### Other tools
-
-
-#### SocialMedia Bruteforce
-- [Instagram Attack](https://github.com/chinoogawa/instaBrute)
-- [AllinOne SocialMedia Attack](https://github.com/Matrix07ksa/Brute_Force)
-- [Facebook Attack](https://github.com/Matrix07ksa/Brute_Force)
-- [Application Checker](https://github.com/jakuta-tech/underhanded)
-#### Android Hacking Tools
-- [Keydroid](https://github.com/F4dl0/keydroid)
-- [MySMS](https://github.com/papusingh2sms/mysms)
-- [Lockphish (Grab target LOCK PIN)](https://github.com/JasonJerry/lockphish)
-- [DroidCam (Capture Image)](https://github.com/kinghacker0/WishFish)
-- [EvilApp (Hijack Session)](https://github.com/crypticterminal/EvilApp)
-- [HatCloud(Bypass CloudFlare for IP)](https://github.com/HatBashBR/HatCloud)
-#### IDN Homograph Attack
-- [EvilURL](https://github.com/UndeadSec/EvilURL)
-#### Email Verify tools
-- [Knockmail](https://github.com/4w4k3/KnockMail)
-#### Hash Cracking Tools
-- [Hash Buster](https://github.com/s0md3v/Hash-Buster)
-#### Wifi Deauthenticate
-- [WifiJammer-NG](https://github.com/MisterBianco/wifijammer-ng)
-- [KawaiiDeauther](https://github.com/aryanrtm/KawaiiDeauther)
 #### SocialMedia Finder
 - [Find SocialMedia By Facial Recognation System](https://github.com/Greenwolf/social_mapper)
 - [Find SocialMedia By UserName](https://github.com/xHak9x/finduser)
