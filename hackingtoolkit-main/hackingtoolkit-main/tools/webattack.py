@@ -4,7 +4,6 @@ import subprocess
 from core import HackingTool
 from core import HackingToolsCollection
 
-
 class Web2Attack(HackingTool):
     TITLE = "Web2Attack - Web hacking framework with tools, exploits by python"
     DESCRIPTION = "Web hacking framework with tools, exploits by python"
@@ -13,28 +12,19 @@ class Web2Attack(HackingTool):
     RUN_COMMANDS = ["cd web2attack && sudo python3 w2aconsole"]
     PROJECT_URL = "https://github.com/santatic/web2attack"
 
-
 class Skipfish(HackingTool):
-    TITLE = "Skipfish - Fully automated, active web application"
-    DESCRIPTION = "Skipfish – Fully automated, active web application " \
-                  "security reconnaissance tool \n " \
-                  "Usage: skipfish -o [FolderName] targetip/site"
+    TITLE = "Skipfish - Fully automated, active web application security reconnaissance tool"
+    DESCRIPTION = "Skipfish – Fully automated, active web application security reconnaissance tool"
     RUN_COMMANDS = [
         "sudo skipfish -h",
         'echo "skipfish -o [FolderName] targetip/site"|boxes -d headline | lolcat'
     ]
-
     def __init__(self):
         super(Skipfish, self).__init__(installable = False)
 
-
 class SubDomainFinder(HackingTool):
-    TITLE = "SubDomain Finder - subdomains of websites using OSINT"
-    DESCRIPTION = "Sublist3r is a python tool designed to enumerate " \
-                  "subdomains of websites using OSINT \n " \
-                  "Usage:\n\t" \
-                  "[1] python3 sublist3r.py -d example.com \n" \
-                  "[2] python3 sublist3r.py -d example.com -p 80,443"
+    TITLE = "SubDomain Finder - Enumerate subdomains using OSINT"
+    DESCRIPTION = "Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT"
     INSTALL_COMMANDS = [
         "sudo pip3 install requests argparse dnspython",
         "sudo git clone https://github.com/aboul3la/Sublist3r.git",
@@ -43,50 +33,38 @@ class SubDomainFinder(HackingTool):
     RUN_COMMANDS = ["cd Sublist3r && python3 sublist3r.py -h"]
     PROJECT_URL = "https://github.com/aboul3la/Sublist3r"
 
-
 class CheckURL(HackingTool):
-    TITLE = "CheckURL - Evil urls that uses IDN Homograph Attack"
-    DESCRIPTION = "Detect evil urls that uses IDN Homograph Attack.\n\t" \
-                  "[!] python3 checkURL.py --url google.com"
+    TITLE = "CheckURL - Detect evil urls using IDN Homograph Attack"
+    DESCRIPTION = "Detect evil urls that use IDN Homograph Attack."
     INSTALL_COMMANDS = [
         "sudo git clone https://github.com/UndeadSec/checkURL.git"]
     RUN_COMMANDS = ["cd checkURL && python3 checkURL.py --help"]
     PROJECT_URL = "https://github.com/UndeadSec/checkURL"
 
-
 class Blazy(HackingTool):
-    TITLE = "Blazy - Also Find ClickJacking Modern login page bruteforcer"
+    TITLE = "Blazy - Modern login page bruteforcer"
     DESCRIPTION = "Blazy is a modern login page bruteforcer"
     INSTALL_COMMANDS = [
         "sudo git clone https://github.com/UltimateHackers/Blazy.git",
-        "cd Blazy && sudo pip2.7 install -r requirements.txt"
+        "cd Blazy && sudo pip3 install -r requirements.txt"
     ]
-    RUN_COMMANDS = ["cd Blazy && sudo python2.7 blazy.py"]
+    RUN_COMMANDS = ["cd Blazy && sudo python3 blazy.py"]
     PROJECT_URL = "https://github.com/UltimateHackers/Blazy"
 
-
 class SubDomainTakeOver(HackingTool):
-    TITLE = "Sub Domain TakeOver - Sub-domain takeover vulnerability occur when a sub-domain"
-    DESCRIPTION = "Sub-domain takeover vulnerability occur when a sub-domain " \
-                  "\n (subdomain.example.com) is pointing to a service " \
-                  "(e.g: GitHub, AWS/S3,..)\n" \
-                  "that has been removed or deleted.\n" \
-                  "Usage:python3 takeover.py -d www.domain.com -v"
+    TITLE = "Sub Domain TakeOver - Vulnerability detection for sub-domain takeover"
+    DESCRIPTION = "Sub-domain takeover vulnerability occur when a sub-domain is pointing to a service (e.g., GitHub, AWS/S3,..) that has been removed or deleted."
     INSTALL_COMMANDS = [
         "git clone https://github.com/m4ll0k/takeover.git",
         "cd takeover;sudo python3 setup.py install"
     ]
     PROJECT_URL = "https://github.com/m4ll0k/takeover"
-
     def __init__(self):
         super(SubDomainTakeOver, self).__init__(runnable = False)
 
 class Dirb(HackingTool):
     TITLE = "Dirb - Web Content Scanner"
-    DESCRIPTION = "DIRB is a Web Content Scanner. It looks for existing " \
-                  "(and/or hidden) Web Objects.\n" \
-                  "It basically works by launching a dictionary based " \
-                  "attack against \n a web server and analizing the response."
+    DESCRIPTION = "DIRB is a Web Content Scanner. It looks for existing (and/or hidden) Web Objects by launching a dictionary based attack against a web server and analyzing the response."
     INSTALL_COMMANDS = [
         "sudo git clone https://gitlab.com/kalilinux/packages/dirb.git",
         "cd dirb;sudo bash configure;make"
@@ -94,13 +72,12 @@ class Dirb(HackingTool):
     PROJECT_URL = "https://gitlab.com/kalilinux/packages/dirb"
 
     def run(self):
-        uinput = input("Enter Url >> ")
-        subprocess.run(["sudo", "dirb", uinput])
-
+        url = input("Enter URL >> ")
+        subprocess.run(["sudo", "dirb", url])
 
 class WebAttackTools(HackingToolsCollection):
-    TITLE = "Web Attack tools"
-    DESCRIPTION = ""
+    TITLE = "Web Attack Tools"
+    DESCRIPTION = "Collection of tools designed for various web attack vectors."
     TOOLS = [
         Web2Attack(),
         Skipfish(),
