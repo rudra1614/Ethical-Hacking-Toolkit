@@ -280,11 +280,15 @@
 
 #### This Tool Must Run As ROOT !!!
 
-    git clone https://github.com/CodingRanjith/hackingtoolkit.git
+    git clone https://github.com/rudra1614/Ethical-Hacking-Toolkit.git
     
-    chmod +x hackingtoolkit
+    cd Ethical-Hacking-Toolkit
+
+    cd hackingtoolkit-main
     
-    cd hackingtoolkit
+    chmod +x hackingtoolkit-main
+    
+    cd hackingtoolkit-main
     
     sudo python3 htk.py
 
