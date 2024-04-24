@@ -81,14 +81,4 @@ class InformationGatheringTools(HackingToolsCollection):
         PortScan(),
         Host2IP(),
         XeroSploit(),
-        RedHawk(),
-        ReconSpider(),
-        IsItDown(),
-        Infoga(),
-        ReconDog(),
-        Striker(),
-        SecretFinder(),
-        Shodan(),
-        PortScannerRanger(),
-        Breacher()
     ]
