@@ -7,8 +7,6 @@
 
 - [✔] Installation Bug Fixed
 - [x] Added New Tools 
-- [x] 200 + Additional Tools
-- [x] Updating Everyday 
 - [X] Added Tool in wifijamming
 - [X] Added Tool in steganography
 - [X] Pull reguests 
